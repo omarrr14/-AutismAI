@@ -6,7 +6,7 @@ const Footer = () => {
   const { t } = useTranslation();
 
   return (
-    <footer className="mt-auto py-8 border-t border-slate-200/50 dark:border-slate-700/50 bg-white/50 dark:bg-slate-900/50 backdrop-blur-md">
+    <footer className="mt-auto py-8 border-t border-slate-200/50 dark:border-slate-700/50 bg-white/50 dark:bg-slate-900/50 backdrop-blur-md print:hidden">
       <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-4">
         
         <div className="text-slate-500 dark:text-slate-400 text-sm">

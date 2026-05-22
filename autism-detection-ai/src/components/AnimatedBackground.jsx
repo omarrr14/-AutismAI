@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const AnimatedBackground = () => {
   return (
-    <div className="fixed inset-0 z-0 overflow-hidden pointer-events-none transition-colors duration-500 bg-slate-50 dark:bg-slate-900">
+    <div className="fixed inset-0 z-0 overflow-hidden pointer-events-none transition-colors duration-500 bg-slate-50 dark:bg-slate-900 print:hidden">
       
       {/* Animated glowing orbs - Soft Sky Blue / Dark Teal */}
       <motion.div

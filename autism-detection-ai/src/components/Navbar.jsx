@@ -22,7 +22,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="sticky top-0 z-50 w-full glass-card border-x-0 border-t-0 rounded-none mb-8">
+    <header className="sticky top-0 z-50 w-full glass-card border-x-0 border-t-0 rounded-none mb-8 print:hidden">
       <div className="container mx-auto px-4">
         <div className="flex h-16 items-center justify-between">
           

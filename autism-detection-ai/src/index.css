@@ -58,3 +58,11 @@
     @apply from-teal-400 to-sky-300;
   }
 }
+
+@media print {
+  body, html, main, #root {
+    background: white !important;
+    color: #0f172a !important;
+    color-scheme: light !important;
+  }
+}
